@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: .80em;
     font-weight: 400;
     text-align: center;
@@ -24,3 +24,33 @@ h3 {
     margin: 0;
     text-align: center;
 }
+
+.name, .webdesigner_custom {
+    transform: rotate(-15deg);
+}
+
+/* .display_form {
+    width: 60%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.label_size {
+    font-size: 0.8rem;
+    font-family: 'Michroma', sans-serif;
+}
+
+.section_contact h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.4rem;
+} */
+
