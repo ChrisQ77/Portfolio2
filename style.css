@@ -25,9 +25,24 @@ h3 {
     text-align: center;
 }
 
-.name, .webdesigner_custom {
+.name,
+.webdesigner_custom {
     transform: rotate(-15deg);
+    
+
 }
+
+.webdesigner_custom {
+    text-shadow: 0 0 5px #bc81c7,
+    0 0 10px #bc81c7,
+    0 0 20px #bc81c7,
+    0 0 30px #bc81c7,
+    0 0 40px #bc81c7;
+}
+
+ 
+
+
 
 /* .display_form {
     width: 60%;
@@ -53,4 +68,3 @@ input {
     font-family: 'Michroma', sans-serif;
     font-size: 1.4rem;
 } */
-
