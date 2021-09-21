@@ -1,0 +1,26 @@
+body {
+    font-family: 'Mr Dafoe', cursive;
+    color: #fff;
+    background: #3494E6;
+    background: -webkit-linear-gradient(90deg, #EC6EAD, #3494E6);
+    background: linear-gradient(90deg, #EC6EAD, #3494E6);
+
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: .80em;
+    font-weight: 400;
+    text-align: center;
+    padding: 18px 0;
+    margin: 100px 0 0 -2px;
+}
+
+h3 {
+    font-family: 'Michroma', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
