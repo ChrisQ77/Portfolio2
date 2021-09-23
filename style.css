@@ -25,12 +25,12 @@ h3 {
     text-align: center;
 }
 
-.name,
-.webdesigner_custom {
+ .name, .webdesigner_custom
+  { 
     transform: rotate(-15deg);
-    
+    }
 
-}
+
 
 .webdesigner_custom {
     text-shadow: 0 0 5px #bc81c7,
