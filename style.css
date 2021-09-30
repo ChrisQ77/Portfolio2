@@ -95,6 +95,16 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
+.section_presentation {
+    height: 85vh;
+}
+
+.mes_realisations, .mes_competences, .contact {
+    height: 100vh;
+}
+
+
+
 
 
 
