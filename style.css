@@ -1,70 +1,258 @@
 body {
-    font-family: 'Mr Dafoe', cursive;
-    color: #fff;
-    background: #3494E6;
-    background: -webkit-linear-gradient(90deg, #EC6EAD, #3494E6);
-    background: linear-gradient(90deg, #EC6EAD, #3494E6);
-
-}
-
-h1 {
-    font-size: 5rem;
-    line-height: .80em;
-    font-weight: 400;
-    text-align: center;
-    padding: 18px 0;
-    margin: 100px 0 0 -2px;
-}
-
-h3 {
-    font-family: 'Michroma', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    line-height: 1.2;
     margin: 0;
-    text-align: center;
+    padding: 0;
 }
 
- .name, .webdesigner_custom
-  { 
-    transform: rotate(-15deg);
-    }
-
-
-
-.webdesigner_custom {
-    text-shadow: 0 0 5px #bc81c7,
-    0 0 10px #bc81c7,
-    0 0 20px #bc81c7,
-    0 0 30px #bc81c7,
-    0 0 40px #bc81c7;
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif, serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
+header {
 
+    height: 80px;
+    background-color: #EFEFEF;
+    position: sticky;
+    top: 0;
+    display: flex;
+    
+  
+    
+}
 
+.largeur_header {
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
-/* .display_form {
-    width: 60%;
+.logo {
+    font-size: 1rem;
+}
+
+nav {
+    /* display: none; */
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 25px;
+}
+
+.title_realisations {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.title_competences {
+    font-size: 1rem;
+    text-align: right;
+}
+
+.me_contacter {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.container_realisations {
+    width: 80%;
     margin: auto;
 }
 
+.container_competences {
+    width: 80%;
+    margin: auto;
+}
+
+.container_title_contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.container_presentation {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.name_presentation, .webdesigner_title {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+/***************** FORMULAIRE DE CONTACT *********************/
+
 form {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
 
-input {
-    height: 40px;
-    margin-bottom: 30px;
-}
-
-.label_size {
+label {
+    margin-bottom: 5px;
     font-size: 0.8rem;
-    font-family: 'Michroma', sans-serif;
 }
 
-.section_contact h1 {
-    font-family: 'Michroma', sans-serif;
-    font-size: 1.4rem;
-} */
+input {
+    margin-bottom: 20px;
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    outline: none;
+}
+
+#text_container {
+    background-color: #EFEFEF;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+button {
+    height: 30px;
+    border: none;
+    background-color: #EFEFEF;
+    font-size: 0.8rem;
+}
+
+footer {
+    height: 50px;
+    background-color: #EFEFEF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** RESPONSIVE ******************/
+
+@media screen and (min-width: 600px) {
+
+    .me_contacter, 
+    .title_competences, 
+    .title_realisations {
+        font-size: 1.2rem;
+    }
+
+    .name_presentation,
+    .webdesigner_title {
+        font-size: 1.4rem;
+        text-align: center;
+        
+    }
+
+
+    label, button {
+        font-size: 0.9rem;
+    }
+
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    .container_realisations, .container_competences {
+        width: 70%;
+    }
+
+    .container_title_contact {
+        width: 70%;
+        text-align: center;
+    }
+
+
+    .container_presentation {
+        text-align: left;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+
+    .me_contacter, 
+    .title_competences, 
+    .title_realisations {
+        font-size: 1.5rem;
+    }
+
+    .name_presentation,
+    .webdesigner_title {
+        font-size: 1.7rem;
+    }
+
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    label, button {
+        font-size: 1rem;
+    }
+
+
+
+    form {
+        width: 60%;
+    }
+
+    .container_realisations, .container_competences {
+        width: 60%;
+    }
+
+    .container_title_contact {
+        width: 60%;
+        text-align: center;
+    }
+
+  
+    
+}
+
+@media screen  and (max-width: 600px) {
+
+    nav {
+        display: none;
+    }
+    
+}

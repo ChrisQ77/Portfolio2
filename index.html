@@ -1,42 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Michroma" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    
-    <div class= "animated flash" >
-        <h1 class="name">Christopher Quesnot</h1> 
-        <h3 class="webdesigner_custom">Webdesigner</h3>
-    </div>
-    
 
-    <!-- <section class="section_contact">
-        <h1>Contact</h1>
+    <!-------------- HEADER -------------->
+    <header>
 
-        <div class="display_form">
+        <div class="largeur_header">
 
-            <form action="">
-
-                <label for="" class="label_size">Nom:</label>
-                <input type="text" placeholder="Nom">
-                <input type="email" placeholder="Email">
-                
-    
-    
-            </form>
+            <h1 class="logo">Logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="">réalisations</a></li>
+                    <li><a href="">Compétences</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
 
         </div>
-        
 
-    </section> -->
 
+    </header>
+
+
+    <!---------- SECTION PRESENTATION ------------>
+
+    <section class="section_presentation">
+
+        <div class="container_presentation">
+
+            <h1 class="name_presentation">Christopher Quesnot</h1>
+            <h2 class="webdesigner_title">Webdesigner</h2>
+
+        </div>
        
+
+    </section>
+    <section class="mes_realisations">
+
+        <div class="container_realisations">
+
+            <h1 class="title_realisations">Mes réalisations</h1>
+
+        </div>
+
+
+    </section>
+
+    <section class="mes_competences">
+
+        <div class="container_competences">
+
+            <h1 class="title_competences">Mes compétences</h1>
+            
+        </div>
+
+
+    </section>
+
+    <section class="contact">
+
+        <div class="container_title_contact">
+
+            <h1 class="me_contacter">Me contacter</h1>
+
+        </div>
+
+        <form action="">
+
+            <label for="">Nom</label>
+            <input type="text">
+
+            <label for="">Email</label>
+            <input type="email">
+
+            <label for="">Sujet</label>
+            <input type="text">
+
+            <label for="">Message</label>
+            <textarea name="champstext" id="text_container" cols="30" rows="10"></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+
+    </section>
+
+    <!-- <footer>
+
+    </footer> -->
+
+
 </body>
+
 </html>
