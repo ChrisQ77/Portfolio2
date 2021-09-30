@@ -39,6 +39,10 @@ nav {
     /* display: none; */
 }
 
+#menu_burger {
+    cursor: pointer;
+}
+
 nav ul{
     display: flex;
     list-style-type: none;
@@ -228,6 +232,10 @@ span {
 
     span {
         font-size: 0.9rem;
+    }
+
+    #menu_burger {
+        display: none;
     }
     
 }
