@@ -19,9 +19,6 @@ header {
     position: sticky;
     top: 0;
     display: flex;
-    
-  
-    
 }
 
 .largeur_header {
@@ -152,7 +149,18 @@ button {
 footer {
     height: 50px;
     background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
+
+span {
+    font-size: 0.8rem;
+}
+
+
+
 
 
 
@@ -217,6 +225,10 @@ footer {
     .container_presentation {
         text-align: left;
     }
+
+    span {
+        font-size: 0.9rem;
+    }
     
 }
 
@@ -230,7 +242,7 @@ footer {
 
     .name_presentation,
     .webdesigner_title {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
 
@@ -257,9 +269,17 @@ footer {
         text-align: center;
     }
 
+    span {
+        font-size: 1rem;
+    }
+
   
     
 }
+
+
+
+
 
 @media screen  and (max-width: 600px) {
 
